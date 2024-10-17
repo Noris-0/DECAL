@@ -1,0 +1,49 @@
+body{
+    background-image: url(Higgs.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 80vh;
+    min-height: 90vh;
+    background-color: #F3F3F3;
+    font-family: 'italiana', serif;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    
+}
+.Wording{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 0%;
+}
+#Title{
+    font-size: 80px;
+    color: #C9C9C9;
+    white-space: nowrap;
+    letter-spacing: 5px;
+}
+#secondline{
+    font-size: 36px;
+    color: #B8B8B8;
+    letter-spacing: 5px;
+}
+
+#backtolobbybutton{
+    background: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    margin: 10px;
+}
+#Artgallerybutton{
+    background: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    margin: 10px;
+}

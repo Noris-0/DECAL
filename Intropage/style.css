@@ -1,0 +1,62 @@
+body{
+    font-family: "italiana", serif;
+    font-weight: 400;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+h4{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+#doorbutton{
+    border: none;
+    background: linear-gradient(to bottom, #EEEEEE, #888888);
+    padding: 5px;
+    padding-bottom: 50px;
+    font-family: "italiana", serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    box-shadow: 
+    inset 5px -10px 10px #6b6b6b,
+    0px 10px 20px #a0a0a0 ;
+
+}
+.stairs{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 227px;
+    margin-top: -50px;
+
+}
+.stair1, .stair2, .stair3, .stair4, .stair5, .stair6{
+    background-color: #888888;
+    box-shadow: 10px 10px 10px #c1c1c1;
+    height: 30px;
+}
+.stair1{
+    width: 100px;
+
+}
+.stair2{
+    width: 200px;
+}
+.stair3{
+    width: 300px;
+}
+.stair4{
+    width: 400px;
+}
+.stair5{
+    width: 500px;
+}
+.stair6{
+    width: 600px;
+}

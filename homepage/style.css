@@ -1,0 +1,82 @@
+body{
+    font-family: 'italiana', serif;
+    font-weight: 400;
+    background-color: #F3F3F3;
+    min-height: 90vh;
+}
+.Lobby{
+    background-color: #FFFFFF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+h1{
+    color: #676767;
+    font-size: 58px;
+    letter-spacing: 15px;
+}
+.Window{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+.Windowset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+#Window1{
+    width: 250px;
+    height: 430px;
+    border: none;
+    background-image: url(window1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+
+}
+#Window2{
+    width: 250px;
+    height: 430px;
+    border: none;
+    background-image: url(window2.png);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+#Window3{
+    width: 250px;
+    height: 430px;
+    border: none;
+    background-image: url(window3.png);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+#Window4{
+    width: 250px;
+    height: 430px;
+    border: none;
+    background-image: url(window4.png);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+#Window1:hover{
+    background-image: url(Variant1.png);
+    background-size: cover;
+}
+#Window2:hover{
+    background-image: url(Variant2.png);
+    background-size: cover;
+}
+#Window3:hover{
+    background-image: url(Variant3.png);
+    background-size: cover;
+}
+#Window4:hover{
+    background-image: url(Variant4.png);
+    background-size: cover;
+}
+.descpng{
+    width: 250px;
+}
